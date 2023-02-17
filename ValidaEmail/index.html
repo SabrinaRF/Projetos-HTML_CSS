@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação Email</title>
+</head>
+<body>
+    <form class="form">
+        <div class="input-container">
+            <input type="email" name="" placeholder="" class="input-field" id="email-input" autocomplete="off" required/>
+            <label for="email-input">Email Address</label>
+            <i id="email-icon" class="fa-regular fa-envelope"></i>
+
+            <span class="toast-msg" id="invalid-toast">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <p>Por favor, insira o email no formato correto!</p>
+            </span>
+
+            <span class="toast-msg success" id="success-toast">
+                <i class="fa-solid fa-check"></i>
+                <p>Excelente! Seu email foi submetido com sucesso</p>
+            </span>
+        </div>
+        <button class="submit-btn">Enviar</button>
+    </form>
+    
+</body>
+</html>
